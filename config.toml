@@ -1,0 +1,38 @@
+baseURL = "http://takeahikeprovisions.com"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Take A Hike Provisions"
+theme = "dimension"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+
+[params]
+  #logoimage = "images/tahp-medium.png"
+  logo = "fa-thumbs-o-up"
+
+  description = "outdoor adventure meals"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "https://www.facebook.com/TakeaHikeProvisions/"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "#"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "#"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
